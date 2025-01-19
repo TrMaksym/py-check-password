@@ -16,5 +16,5 @@ from app.main import check_password
         ("A1c@t", False)
     ]
 )
-def test_check_password(password: str, expected:bool) -> None:
+def test_check_password(password: str, expected: bool) -> None:
     assert check_password(password) == expected
